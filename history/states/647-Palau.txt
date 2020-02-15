@@ -1,0 +1,26 @@
+state=
+{
+	id=647
+	name="STATE_647"
+	state_category = town
+	manpower = 12100
+	history=
+	{
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			4357 = {
+				naval_base = 2
+
+			}
+		}
+		
+		victory_points = {
+			4357 1 
+		}
+	}
+	provinces={
+		4357 12103
+	}
+}
