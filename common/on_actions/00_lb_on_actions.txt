@@ -913,31 +913,31 @@ on_actions = {
 	    		GER = {
 	     				add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	   			 }	
 			}
 	ROM = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		HUN = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		SPR = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		ITA = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 		    		}
 	    		}
 	    		set_global_flag = barbarossa_started_LB_axis_buff
@@ -958,41 +958,41 @@ on_actions = {
 		}
 	    add_timed_idea = { 
 		    idea = SOV_lack_of_officers 
-		    days = 120
+		    days = 365
 	    }
 	   add_timed_idea = { 
 		    idea = SOV_disorganized_airforce
-		    days = 120
+		    days = 365
 		    		}
 	    		}
 	    		GER = {
 	     				add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	   			 }	
 			}
 	ROM = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		HUN = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		SPR = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 	    }
 		}
 		ITA = {
 		    add_timed_idea = { 
 		    idea = GER_crusade_on_bolshevism 
-		    days = 120
+		    days = 150
 		    		}
 	    		}
 			}

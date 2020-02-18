@@ -10,17 +10,17 @@ ideas = {
 			picture = kohoda
 			modifier = {
 			    invasion_preparation = -0.50
-				army_org_factor = 0.1
-				army_attack_factor = 0.1
-				army_morale_factor = 0.07
-				air_air_superiority_agility_factor = 0.1
-				air_interception_agility_factor = 0.1
+				army_org_factor = 0.05
+				army_attack_factor = 0.05
+				army_morale_factor = 0.05
+				air_air_superiority_agility_factor = 0.05
+				air_interception_agility_factor = 0.05
 				naval_strike_agility_factor = 0.05
 				navy_carrier_air_attack_factor = 0.07
 				navy_carrier_air_targetting_factor 0.07
 				navy_carrier_air_agility_factor = 0.07
-				naval_coordination = 0.15
-				sortie_efficiency = 0.15
+				naval_coordination = 0.10
+				sortie_efficiency = 0.10
 			}
 		}
 		state_shintoism = {
@@ -212,7 +212,7 @@ ideas = {
 			picture = jap_zaibatsu
 			
 			modifier = {
-				political_power_cost = 0.1
+				political_power_cost = 0.25
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.05
@@ -258,7 +258,7 @@ ideas = {
 			picture = jap_zaibatsu_ally
 			
 			modifier = {
-				political_power_cost = 0.1
+				political_power_cost = 0.25
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.10
@@ -678,16 +678,16 @@ ideas = {
 			picture = jap_interservice_rivalry_navy_dominant
 			
 			research_bonus = { 
-				land_doctrine = -0.05
+				land_doctrine = -0.1
 				naval_doctrine = 0.05
 			}
 
 			modifier = {
-				production_speed_arms_factory_factor = -0.1
+				production_speed_arms_factory_factor = -0.2
 				production_speed_dockyard_factor = 0.2
-				planning_speed = -0.05
+				planning_speed = -0.1
 				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = 0.2
+				industrial_capacity_dockyard = 0.1
 			}
 		}		
 
@@ -960,8 +960,8 @@ ideas = {
 				port_strike = 1
 				carrier_capacity_penalty_reduction = -0.5
 				sortie_efficiency = 0.5
-				naval_strike_attack_factor = 0.15
-				naval_strike_targetting_factor = 0.15
+				naval_strike_attack_factor = 0.12
+				naval_strike_targetting_factor = 0.12
 				naval_strike_agility_factor = 0.12
 			}
 		}
@@ -1031,9 +1031,6 @@ ideas = {
 					build_cost_ic = -0.2 instant = yes
 				}
 				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.2 instant = yes
-				}
-				tac_bomber_equipment = {
 					build_cost_ic = -0.2 instant = yes
 				}
 				nav_bomber_equipment = {
@@ -1276,7 +1273,7 @@ ideas = {
 			
 
 			
-			traits = { air_chief_ground_support_2 }
+			traits = { air_chief_ground_support_1 }
 			
 			ai_will_do = {
 				factor = 1

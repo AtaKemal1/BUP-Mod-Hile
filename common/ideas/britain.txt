@@ -2493,12 +2493,12 @@ cost = 75
 					reliability = 0.1
 					defense = 0.1
 					build_cost_ic = -0.1
-					maximum_speed = 0.15
+					maximum_speed = 0.1
 				}
 				medium_tank_aa_equipment = {
 					reliability = 0.1
 					air_attack = 0.05
-					maximum_speed = 0.15
+					maximum_speed = 0.1
 				}
 				medium_tank_artillery_equipment = {
 					reliability = 0.1

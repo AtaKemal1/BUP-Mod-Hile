@@ -14,7 +14,6 @@ state={
 		owner = SIA
 		buildings = {
 			infrastructure = 7
-			air_base = 4
 		}
 		victory_points = {
 			7236 1 

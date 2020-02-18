@@ -442,7 +442,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "GER"
 		}
-		requested_factories = 10
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}
@@ -459,10 +459,20 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
+			type = anti_air_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
 			type = artillery_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.3
 		efficiency = 50
 	}
@@ -472,7 +482,7 @@ instant_effect = {
 			type = light_tank_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
 	}
@@ -511,7 +521,7 @@ instant_effect = {
 			type = fighter_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 1
+		requested_factories = 25
 		progress = 0.1
 		efficiency = 50
 	}

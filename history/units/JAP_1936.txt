@@ -330,46 +330,6 @@ units = {
 			name_order = 7
 		}
 		location = 12421 #Asahigawa
-		division_template = "Rikusentai"
-		start_experience_factor = 5
-	}
-	#Kita Homengun - North Japan Army
-	division = { # "7 'Kuma' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 12421 #Asahigawa
-		division_template = "Rikusentai"
-		start_experience_factor = 5
-	}
-	#Kita Homengun - North Japan Army
-	division = { # "7 'Kuma' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 12421 #Asahigawa
-		division_template = "Rikusentai"
-		start_experience_factor = 5
-	}
-	#Kita Homengun - North Japan Army
-	division = { # "7 'Kuma' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 12421 #Asahigawa
-		division_template = "Rikusentai"
-		start_experience_factor = 5
-	}
-	#Kita Homengun - North Japan Army
-	division = { # "7 'Kuma' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 12421 #Asahigawa
 		division_template = "Hohei Shidan"
 		start_experience_factor = 5
 	}
@@ -418,12 +378,12 @@ air_wings = {
 		# 6 Hiko Rentai -- Mitsubishi Ki-2
 		CAS_equipment_1 =  {
 			owner = "JAP" 
-			amount = 500
+			amount = 400
 		}
 		# 9 Hiko Rentai -- Mitsubishi Ki-1
-		tac_bomber_equipment_1 =  {
+		tac_bomber_equipment_0 =  {
 			owner = "JAP" 
-			amount = 200
+			amount = 100
 		}
 		cv_fighter_equipment_0 = {
 			owner = "JAP" 
@@ -448,7 +408,7 @@ instant_effect =
 			type = infantry_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 4
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}
@@ -458,7 +418,7 @@ instant_effect =
 			type = support_equipment_1
 			creator = "JAP" 
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
 	}
@@ -468,7 +428,7 @@ instant_effect =
 			type = artillery_equipment_1
 			creator = "JAP" 
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
 	}
@@ -480,15 +440,6 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.15
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = tac_bomber_equipment_1
-			creator = "JAP" 
-		}
-		requested_factories = 3
-		progress = 0.1
 		efficiency = 50
 	}
 

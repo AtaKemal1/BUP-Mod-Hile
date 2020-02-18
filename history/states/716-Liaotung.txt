@@ -2,13 +2,13 @@ state={
 	id=716
 	name="STATE_716"
 	resources={
-		steel=36.000
+		steel=27.000
 	}
 
 	history={
 		owner = JAP
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			air_base = 5
 			964 = {
 				naval_base = 3

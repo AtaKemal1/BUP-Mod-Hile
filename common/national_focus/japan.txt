@@ -161,7 +161,7 @@ focus_tree = {
 					country_event = { id = panay_incident.2 }
 				}					
 
-		army_experience = 400
+		army_experience = 800
 		air_experience = 800
 		navy_experience = 100
 
@@ -268,8 +268,8 @@ focus_tree = {
         transfer_state = 620
           transfer_state = 750
                        
-		army_experience = 900
-		air_experience = 900
+		army_experience = 800
+		air_experience = 800
 		navy_experience = 100
        
         
@@ -287,7 +287,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_intervene_in_china
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 4
@@ -473,7 +473,7 @@ focus_tree = {
 				}
 			add_timed_idea = {
 			    idea = nanshin_ron
-				days = 120
+				days = 90
 			}
 		}
 	}
@@ -486,7 +486,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_strike_on_the_southern_resource_area
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -950,7 +950,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = JAP_guide_the_zaibatsus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 2
@@ -984,7 +984,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_coal_liquification
 				bonus = 3
-				uses = 2
+				uses = 1
 				category = synth_resources
 			}
 		}
@@ -1975,7 +1975,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 2
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2117,7 +2117,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_air_doc
 				bonus = 1
-				uses = 4
+				uses = 3
 				category = air_doctrine
 			}
 			add_tech_bonus = {
@@ -2279,7 +2279,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_bomber_modernization
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = cas_bomber
 				category = tactical_bomber
 			}
@@ -2723,7 +2723,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_supremacy_of_the_battlefleet
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2808,7 +2808,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = cl_tech
 				category = ca_tech
 			}

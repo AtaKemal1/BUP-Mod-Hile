@@ -10,6 +10,7 @@ if = {
 }
     add_ideas = {
         communism_trade
+		production_targets_idea
 		SOV_political_commisars
 		general_winter_idea
 		soviet_gulag_0

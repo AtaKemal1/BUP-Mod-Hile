@@ -744,7 +744,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = GER_german_war_economy
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1730,6 +1730,7 @@ focus_tree = {
 		}
 	}
 }
+
 	focus = {
 		id = GER_fall_blau
 		icon = GFX_revan
@@ -2456,7 +2457,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.0
+				bonus = 2.0
 				uses = 3
 				category = trade_interdiction_tree
 			}
@@ -2491,7 +2492,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.0
+				bonus = 2.0
 				uses = 3
 				category = trade_interdiction_tree
 			}
@@ -2529,7 +2530,7 @@ focus_tree = {
 		completion_reward = {
 			GER = {if = { limit = { has_idea = GER_british_naval_dominance_challenged } remove_ideas = GER_british_naval_dominance_challenged} }
 			GER = {if = { limit = { has_idea = GER_british_naval_dominance_challenged2 } remove_ideas = GER_british_naval_dominance_challenged2} }
-			add_timed_idea = { idea = GER_scrap_capitals days = 540 }
+			add_timed_idea = { idea = GER_scrap_capitals days = 640 }
 		}
 	}
 	

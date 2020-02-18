@@ -137,7 +137,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				acclimatization_cold_climate_gain_factor = -1000
+				acclimatization_cold_climate_gain_factor = -0.95
 			}
 		}
 		
@@ -159,12 +159,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-			    navy_max_range_factor = 0.2
-			    naval_coordination = 0.15
-				naval_speed_factor = 0.2
-				navy_capital_ship_attack_factor = 0.15
-				navy_capital_ship_defence_factor = 0.15
-				convoy_raiding_efficiency_factor = 0.25
+			    navy_max_range_factor = 0.15
+			    naval_coordination = 0.1
+				naval_speed_factor = 0.1
+				navy_capital_ship_attack_factor = 0.1
+				navy_capital_ship_defence_factor = 0.1
+				convoy_raiding_efficiency_factor = 0.1
 			}
 			picture = generic_sea_focused_navy
 		}
@@ -333,7 +333,7 @@ ideas = {
 			}
 
 		    modifier = {
-		    	supply_consumption_factor = -0.1
+		    	supply_consumption_factor = -0.15
 		    	production_speed_air_base_factor = 1
 			    planning_speed = 0.15
 			}
@@ -355,8 +355,8 @@ ideas = {
 			picture = generic_reserve_divisions
 			
 			modifier = {
-			    army_core_defence_factor = 0.3
-				army_core_attack_factor = 0.2
+			    army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.10
 			}
 		}
 		
@@ -1367,7 +1367,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1378,7 +1378,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.20
+				political_power_cost = 0.2
 			}
 		}
 
@@ -1398,7 +1398,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1429,7 +1429,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1460,7 +1460,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1491,7 +1491,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1522,7 +1522,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1553,7 +1553,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-			    production_speed_infrastructure_factor  = 0.25
+			    production_speed_infrastructure_factor  = 0.20
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1564,7 +1564,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 1.1
+				political_power_cost = 1
 			}
 		}
 
@@ -1584,7 +1584,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1615,7 +1615,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1646,7 +1646,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1657,7 +1657,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 1.55
+				political_power_cost = 1.6
 			}
 		}
 
@@ -1677,7 +1677,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1688,7 +1688,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 1.7
+				political_power_cost = 1.75
 			}
 		}
 
@@ -1708,7 +1708,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1719,7 +1719,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 1.85
+				political_power_cost = 1.9
 			}
 		}
 
@@ -1739,7 +1739,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1750,7 +1750,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 2
+				political_power_cost = 2.05
 			}
 		}
 
@@ -1770,7 +1770,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-			    production_speed_infrastructure_factor  = 0.25
+			    production_speed_infrastructure_factor  = 0.20
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1801,7 +1801,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1832,7 +1832,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1863,7 +1863,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -1894,7 +1894,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.08
-		        production_speed_infrastructure_factor  = 0.2
+		        production_speed_infrastructure_factor  = 0.25
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				production_speed_naval_base_factor = 0.25
@@ -2165,7 +2165,7 @@ ideas = {
 					reliability = 0.1
 					defense = 0.1
 					build_cost_ic = -0.15
-					maximum_speed = 0.15
+					maximum_speed = 0.1
 				}
 				medium_tank_aa_equipment = {
 					reliability = 0.1
@@ -2174,8 +2174,8 @@ ideas = {
 				}
 				medium_tank_artillery_equipment = {
 					reliability = 0.1
-					soft_attack = 0.05
-					maximum_speed = 0.1			
+					soft_attack = 0.1
+					maximum_speed = 0.15			
 				}
 			}
 
@@ -2311,16 +2311,16 @@ ideas = {
 				}
 				medium_tank_destroyer_equipment = {
 					hard_attack = 0.1
-					ap_attack = 0.15
+					ap_attack = 0.1
 					reliability = 0.1
 					defense = 0.1
 					build_cost_ic = -0.1
-					maximum_speed = 0.15
+					maximum_speed = 0.1
 				}
 				medium_tank_aa_equipment = {
 					reliability = 0.1
 					air_attack = 0.1
-					maximum_speed = 0.15
+					maximum_speed = 0.1
 				}
 				medium_tank_artillery_equipment = {
 					reliability = 0.1

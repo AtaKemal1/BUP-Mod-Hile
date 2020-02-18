@@ -205,7 +205,7 @@ country_event = {
 						}
 						name = "Yamato" 
 						requested_factories = 1
-						progress = 0.95
+						progress = 0.75
 						amount = 1
 					}
 					add_equipment_production = {
@@ -216,7 +216,7 @@ country_event = {
 						}
 						name = "Musashi" 
 						requested_factories = 1
-						progress = 0.95
+						progress = 0.75
 						amount = 1
 					}
 				}

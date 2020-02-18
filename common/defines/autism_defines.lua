@@ -153,8 +153,8 @@ NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join c
 		0.0, -- NAVAL_INVASION_SUPPORT
 }
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 0.5 ---Vanilla value may need to change
-NDefines.NNavy.SUBMARINE_REVEAL_POW = 4		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.1		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+NDefines.NNavy.SUBMARINE_REVEAL_POW = 2.5		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.09		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
 
 
 NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.25	-- casting damage value to ship strength multiplier. Use it ot balance the game difficulty.
@@ -220,7 +220,7 @@ NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.1
 
 ---Building
 NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --amount of potential max building slots in a state
-NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
+NDefines.NBuildings.INFRA_TO_SUPPLY = 3
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 200
 NDefines.NBuildings.RADAR_RANGE_BASE = 30
 NDefines.NBuildings.RADAR_RANGE_MIN = 30
@@ -245,7 +245,7 @@ NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.1 -- 0.015	 % how many max disru
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.60 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 NDefines.NAir.BOMBING_DAMAGE_EXPERIENCE_SCALE = 0.0004
 NDefines.NAir.CLOSE_AIR_SUPPORT_EXPERIENCE_SCALE = 0.001
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 1.5
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 1.4
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0
 ---AI
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 100
