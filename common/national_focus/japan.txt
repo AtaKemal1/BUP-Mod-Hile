@@ -1523,7 +1523,6 @@ focus_tree = {
 					uses = 1
 			technology = improved_medium_tank
 			technology = improved_heavy_tank
-			technology = advanced_light_tank
 			technology = amphibious_tank_2
 				}
 		}
@@ -1931,6 +1930,7 @@ focus_tree = {
 			technology = improved_heavy_tank
 			technology = advanced_light_tank
 			technology = amphibious_tank
+			technology = amphibious_tank_2
 			}
 		}
 	}
@@ -2114,6 +2114,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		    add_ace = {
+                name = "Tetsuzo"
+                surname = " Iwamoto"
+                callsign = "Tiger Tetsu"
+                type = fighter_genius
+                is_female = no
+            }
 			add_tech_bonus = {
 				name = JAP_air_doc
 				bonus = 1

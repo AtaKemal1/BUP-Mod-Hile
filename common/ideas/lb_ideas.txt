@@ -908,24 +908,6 @@ ideas = {
 				production_speed_synthetic_refinery_factor = -0.3
 			}
 		} 
-		production_targets_idea = {
-			removal_cost = -1
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			picture = targets
-
-			modifier = {
-				production_factory_max_efficiency_factor = 0.10
-				production_factory_efficiency_gain_factor = -0.10
-			}
-		}
 
 		ger_africadebuff = {
 			allowed = {

@@ -744,7 +744,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = GER_german_war_economy
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -1092,6 +1092,34 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ace = {
+                name = "Gerhard"
+                surname = " Buckhorn"
+                callsign = "Gerd"
+                type = fighter_genius
+                is_female = no
+            }
+		    add_ace = {
+                name = "Günther"
+                surname = " Rall"
+                callsign = "Teufel"
+                type = fighter_genius
+                is_female = no
+            }
+		    add_ace = {
+                name = "Otto"
+                surname = " Onkel"
+                callsign = "Kittel"
+                type = fighter_good
+                is_female = no
+            }
+		    add_ace = {
+                name = "Erich"
+                surname = " Rudorffer"
+                callsign = "The Black Devil"
+                type = support_genius
+                is_female = no
+            }
 			set_technology = { fighter2 = 1 }
 			hidden_effect = {  ITA = { set_technology = { fighter2 = 1 } } ROM = { set_technology = { fighter2 = 1 } } HUN = { set_technology = { fighter2 = 1 } } SPR = { set_technology = { fighter2 = 1 } } BUL = { set_technology = { fighter2 = 1 } } }
 			air_experience = 50
@@ -1107,7 +1135,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = radar_tech
 			}
 			if = {
@@ -1247,7 +1275,7 @@ focus_tree = {
 			51 = { set_demilitarized_zone = no }
 			796 = { set_demilitarized_zone = no }
 			add_political_power = 180
-			army_experience = 15
+			army_experience = 25
 			add_named_threat = { threat = 5 name = GER_rhineland }
 			if = {
 				limit = { FRA = { is_puppet = no } }
@@ -2452,12 +2480,12 @@ focus_tree = {
 		x = 34
 		y = 1
 		icon = GFX_goal_generic_navy_submarine
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 2.0
+				bonus = 1.0
 				uses = 3
 				category = trade_interdiction_tree
 			}
@@ -2486,13 +2514,13 @@ focus_tree = {
 		prerequisite = {focus = GER_submarine_raiding_fleets}
 		x = 35
 		y = 2
-		cost = 5
+		cost = 4
 		icon = GFX_goal_generic_wolf_pack
 		completion_reward = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 2.0
+				bonus = 1.0
 				uses = 3
 				category = trade_interdiction_tree
 			}

@@ -9,6 +9,7 @@ set_technology = {
 	building_tech = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	gw_artillery = 1
 	tech_recon = 1
 	tech_engineers = 1
 	tech_support = 1		
@@ -18,11 +19,15 @@ set_technology = {
 add_ideas = no_training
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
-        amount = 2600
+        amount = 5600
+}
+add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 150
 }
 add_equipment_to_stockpile = {
         type = support_equipment
-        amount = 100
+        amount = 300
 }
 set_politics = {	
 	ruling_party = neutrality
@@ -38,7 +43,7 @@ set_popularities = {
     communism = 1
 }
 
-set_stability = 0.50
+set_stability = 0.60
 
 create_country_leader = {
 	name = "Kurt Schuschnigg"

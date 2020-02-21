@@ -97,7 +97,7 @@ technologies = {
 		###########
  		
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -146,7 +146,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -191,7 +191,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -233,7 +233,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -285,7 +285,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -328,7 +328,7 @@ technologies = {
 		}
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -376,7 +376,7 @@ technologies = {
 
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -421,7 +421,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -474,7 +474,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -515,7 +515,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -551,7 +551,7 @@ technologies = {
 
  	
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -590,7 +590,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -641,7 +641,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -687,7 +687,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -739,7 +739,7 @@ technologies = {
 		}
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -789,7 +789,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -836,7 +836,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -877,7 +877,7 @@ technologies = {
 		
  
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine
@@ -909,7 +909,7 @@ technologies = {
 		###########
  	
 		doctrine = yes	
-		research_cost = 1.0
+		research_cost = 0.5
 		
 		categories = {
 			air_doctrine

@@ -664,7 +664,7 @@ GER_vemork_hydroelectric_plant_category = {
 		}
 
 		complete_effect = {
-			add_timed_idea = { idea = GER_jaegernotprogramm days = 90 }
+			add_timed_idea = { idea = GER_jaegernotprogramm days = 120 }
 		}
 	}
 
@@ -707,11 +707,37 @@ GER_vemork_hydroelectric_plant_category = {
 		available = {
 		    tag = GER
 			ITA = { controls_state = 446 }
-			date < 1940.7.1
+			date < 1940.9.1
 
 		}
 		complete_effect = {
 				add_resource = { type = rubber amount = 25 state = 57 }
+			add_timed_idea = { idea = GER_egypt days = 540 }
+	ROM = {
+		    add_timed_idea = { 
+		    idea = GER_egypt
+		    days = 540
+	    }
+		}
+		HUN = {
+		    add_timed_idea = { 
+		    idea = GER_egypt
+		    days = 540
+	    }
+		}
+		SPR = {
+		    add_timed_idea = { 
+		    idea = GER_egypt
+		    days = 540
+	    }
+		}
+		ITA = {
+		    add_timed_idea = { 
+		    idea = GER_egypt
+		    days = 540
+		    		}
+	    		}
+			add_war_support = 0.05
 		}
 	}
 	
@@ -777,7 +803,7 @@ GER_vemork_hydroelectric_plant_category = {
 		fire_only_once = yes
 		complete_effect = {
 		    add_tech_bonus = {
-				bonus = 0.75
+				bonus = 1
 				uses = 1
 				name = mech_army_bonus
 				technology = advanced_medium_tank

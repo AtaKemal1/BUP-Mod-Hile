@@ -2,7 +2,7 @@
 
 oob = "GER_1936"
 
-set_fuel_ratio = 0.9
+set_fuel_ratio = 0.95
 
 # Starting tech
 set_technology = {
@@ -96,6 +96,28 @@ set_research_slots = 4
 set_convoys = 300
 set_stability = 0.75 
 set_war_support = 0.3
+
+
+add_equipment_to_stockpile = {
+        type = infantry_equipment_1
+        amount = 24600
+}
+add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 760
+}
+add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = 840
+}
+add_equipment_to_stockpile = {
+        type = motorized_equipment_1
+        amount = 800
+}
+add_equipment_to_stockpile = {
+        type = light_tank_equipment_1 
+        amount = 720
+}
 
 
 1939.1.1 = {
@@ -244,25 +266,25 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Erich von Manstein"
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits = { trickster panzer_leader brilliant_strategist trait_engineer organizer }
+	traits = { trickster panzer_leader brilliant_strategist trait_engineer ranger organizer }
 	skill = 6
 	id = 5
 	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 3
+	planning_skill = 4
 	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Heinz Guderian"
 	picture = "Portrait_Germany_Heinz_Guderian.dds"
-	traits = { trickster panzer_leader armor_officer trait_engineer }
+	traits = { trickster panzer_leader armor_officer ranger trait_engineer }
 	skill = 6
 	id = 6
 	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -299,19 +321,19 @@ create_corps_commander = {
 	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {
 	name = "Walter Model"
 	picture = "Portrait_Germany_Walter_Model.dds"
 	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
-	skill = 3
+	skill = 5
 	id = 10
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -366,7 +388,7 @@ create_corps_commander = {
 	name = "Kurt Student"
 	picture = "Portrait_Germany_Kurt_Student.dds"
 	traits = { commando trait_reckless infantry_leader }
-	skill = 3
+	skill = 4
 	id = 16
 	attack_skill = 4
 	defense_skill = 2
@@ -382,8 +404,8 @@ create_corps_commander = {
 	id = 17
 	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {

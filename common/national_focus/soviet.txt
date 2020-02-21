@@ -221,7 +221,15 @@ focus_tree = {
                 name = "Alexander"
                 surname = " Pokryshkin"
                 callsign = "Alexander"
-                type = fighter_genius
+                type = fighter_unique
+                is_female = no
+            }
+
+		    add_ace = {
+                name = "Nikolai"
+                surname = " Dmitriyevich"
+                callsign = "Gulayev"
+                type = fighter_good
                 is_female = no
             }
 			

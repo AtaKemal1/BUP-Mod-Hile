@@ -57,11 +57,11 @@ ideas = {
 				has_government = communism
 			}
 
-			picture = generic_goods_red_bonus
+			picture = targets
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.15
-				production_factory_efficiency_gain_factor = -0.225
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.175
 			}
 		}
 		

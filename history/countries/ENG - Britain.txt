@@ -107,10 +107,26 @@ add_ideas = {
 }
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
-        amount = 5000
+        amount = 26000
 }	
+add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 550
+}
+add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = 540
+}
+add_equipment_to_stockpile = {
+        type = motorized_equipment_1
+        amount = 400
+}
+add_equipment_to_stockpile = {
+        type = light_tank_equipment_1 
+        amount = 220
+}
 
-set_convoys = 1600
+set_convoys = 2000
 
 # DIPLOMACY
 if = {

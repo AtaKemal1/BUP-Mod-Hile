@@ -22,11 +22,15 @@ set_technology = {
 add_ideas = no_training
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
-        amount = 13400
+        amount = 23400
 }
 add_equipment_to_stockpile = {
         type = support_equipment
-        amount = 50
+        amount = 550
+}
+add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 550
 }
 add_equipment_to_stockpile = {
         type = light_tank_equipment_1 
