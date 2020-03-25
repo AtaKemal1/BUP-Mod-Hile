@@ -523,7 +523,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_autobahn_tt
 			hidden_effect = {
 				64 = {
-						add_extra_state_shared_building_slots = 6
+						add_extra_state_shared_building_slots = 8
 						add_building_construction = {
 							type = infrastructure
 							level = 10
@@ -531,6 +531,22 @@ focus_tree = {
 						}
 					}
 				59 = {
+						add_extra_state_shared_building_slots = 8 
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				51 = {
+						add_extra_state_shared_building_slots = 6 
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				796= {
 						add_extra_state_shared_building_slots = 6 
 						add_building_construction = {
 							type = infrastructure
@@ -539,7 +555,7 @@ focus_tree = {
 						}
 					}
 				60 = {
-						add_extra_state_shared_building_slots = 6 
+						add_extra_state_shared_building_slots = 8 
 						add_building_construction = {
 							type = infrastructure
 							level = 10
@@ -547,7 +563,7 @@ focus_tree = {
 						}
 					}
 				54 = {
-						add_extra_state_shared_building_slots = 6 
+						add_extra_state_shared_building_slots = 8 
 						add_building_construction = {
 							type = infrastructure
 							level = 10
@@ -665,6 +681,17 @@ focus_tree = {
 		HUN = {
 				add_opinion_modifier = { target = GER modifier = aided_industry }
 				43 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		ITA = {
+				add_opinion_modifier = { target = GER modifier = aided_industry }
+				1 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
@@ -1110,7 +1137,7 @@ focus_tree = {
                 name = "Otto"
                 surname = " Onkel"
                 callsign = "Kittel"
-                type = fighter_good
+                type = fighter_genius
                 is_female = no
             }
 		    add_ace = {
@@ -1126,7 +1153,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 1.5
-				uses = 2
+				uses = 3
 				category = air_doctrine
 			}
 
@@ -2485,7 +2512,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.0
+				bonus = 2.0
 				uses = 3
 				category = trade_interdiction_tree
 			}
@@ -2520,7 +2547,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.0
+				bonus = 2.0
 				uses = 3
 				category = trade_interdiction_tree
 			}

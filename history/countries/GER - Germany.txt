@@ -75,6 +75,7 @@ if = {
 		improved_ship_torpedo_launcher = 1
 		basic_battery = 1
 		smoke_generator = 1
+		magnetic_detonator = 1
 		basic_light_battery = 1
 		basic_medium_battery = 1
 		basic_heavy_battery = 1
@@ -100,19 +101,19 @@ set_war_support = 0.3
 
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
-        amount = 24600
+        amount = 31600
 }
 add_equipment_to_stockpile = {
         type = artillery_equipment_1
-        amount = 760
+        amount = 980
 }
 add_equipment_to_stockpile = {
         type = support_equipment
-        amount = 840
+        amount = 940
 }
 add_equipment_to_stockpile = {
         type = motorized_equipment_1
-        amount = 800
+        amount = 900
 }
 add_equipment_to_stockpile = {
         type = light_tank_equipment_1 
@@ -260,7 +261,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {
@@ -272,7 +273,7 @@ create_field_marshal = {
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -315,7 +316,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Fedor von Bock"
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
-	traits = { trait_cautious infantry_leader trait_engineer trickster }
+	traits = { infantry_leader trait_engineer trickster }
 	skill = 6
 	id = 9
 	attack_skill = 6
@@ -327,10 +328,10 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Walter Model"
 	picture = "Portrait_Germany_Walter_Model.dds"
-	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
+	traits = { defensive_doctrine infantry_leader politically_connected }
 	skill = 5
 	id = 10
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
@@ -388,24 +389,24 @@ create_corps_commander = {
 	name = "Kurt Student"
 	picture = "Portrait_Germany_Kurt_Student.dds"
 	traits = { commando trait_reckless infantry_leader }
-	skill = 4
+	skill = 5
 	id = 16
 	attack_skill = 4
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Erwin von Witzleben"
 	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
 	traits = { infantry_officer career_officer infantry_leader }
-	skill = 4
+	skill = 5
 	id = 17
 	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -561,7 +562,7 @@ create_navy_leader = {
 	id = 26
 	attack_skill = 5
 	defense_skill = 3
-	maneuvering_skill = 3
+	maneuvering_skill = 4
 	coordination_skill = 5
 }
 
@@ -571,7 +572,7 @@ create_navy_leader = {
 	traits = { naval_lineage battleship_adherent }
 	skill = 4
 	id = 27
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	maneuvering_skill = 3
 	coordination_skill = 3
@@ -719,8 +720,8 @@ if = {
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
@@ -806,16 +807,16 @@ if = {
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_medium_battery_1
-			rear_1_custom_slot = ship_airplane_launcher_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_light_medium_battery_2
+			rear_1_custom_slot = ship_light_medium_battery_2
 		}
 	}
 	create_equipment_variant = {
@@ -850,27 +851,28 @@ if = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
 			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_2
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
 	}
 	create_equipment_variant = {
 		name = "Deutschland Class"
-		type = ship_hull_pre_dreadnought
+		type = ship_hull_heavy_1
 		name_group = GER_BB_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_bb_1
 			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_2
 		}
 		obsolete = yes
 	}

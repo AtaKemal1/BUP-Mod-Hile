@@ -80,15 +80,15 @@ set_popularities = {
 }
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
-        amount = 10000
+        amount = 20000
 }
 add_equipment_to_stockpile = {
         type = artillery_equipment_1
-        amount = 330
+        amount = 430
 }
 add_equipment_to_stockpile = {
         type = support_equipment
-        amount = 360
+        amount = 460
 }
 set_convoys = 150
 set_stability = 0.5

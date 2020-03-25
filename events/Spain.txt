@@ -50,18 +50,19 @@ country_event = {
 			add_named_threat = { threat = 2 name = spain.1.t }
 			remove_ideas = SPR_the_black_years
 			SOV = { air_experience = 600 }
-			GER = { air_experience = 600 }
+			GER = { air_experience = 800 }
 			ITA = { air_experience = 400 }
 			SOV = { army_experience = 400 }
-			GER = { army_experience = 500 }
+			GER = { army_experience = 700 }
 			ITA = { army_experience = 300 }
 			SPR = { army_experience = 600 }
 			SPR = { air_experience = 200 }
 			ROM = { army_experience = 50 }
+			BUL = { army_experience = 50 }
 			HUN = { army_experience = 50 }
 			SIA = { army_experience = 50 }
 			FRA = { army_experience = 50 }
-        ENG = { army_experience = 50 }
+                        ENG = { army_experience = 50 }
 		every_country = { limit = { is_subject_of = ENG } army_experience = 50 }
 		VEN = {
 		transfer_state = 297

@@ -148,7 +148,7 @@ air_wings = {
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
 			owner = "GER" 
-			amount = 10
+			amount = 25
 		}
 		nav_bomber_equipment_1 =  {		# He 59, Do 18
 			owner = "GER" 
@@ -156,13 +156,13 @@ air_wings = {
 		}
 		tac_bomber_equipment_1 = {		# Do 23
 			owner = "GER" 
-			amount = 100
+			amount = 200
 		}
 		name = "Kampfgeschwader 152"
 		# Kampfgeschwader 155	
 		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
 			owner = "GER" 
-			amount = 400
+			amount = 300
 		}
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
@@ -193,8 +193,18 @@ instant_effect = {
 			creator = "GER" 
 		}
 		requested_factories = 2
-		progress = 0.3
+		progress = 0.9
 		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
 	}
 
 	add_equipment_production = {
@@ -223,7 +233,7 @@ instant_effect = {
 			creator = "GER" 
 		}
 		requested_factories = 2
-		progress = 0.4
+		progress = 0.8
 		efficiency = 50
 	}
 
@@ -233,7 +243,7 @@ instant_effect = {
 			creator = "GER" 
 		}
 		requested_factories = 1
-		progress = 0.2
+		progress = 0.98
 		efficiency = 50
 	}
 
@@ -252,7 +262,7 @@ instant_effect = {
 			creator = "GER" 
 		}
 		requested_factories = 26
-		progress = 0.1
+		progress = 0.98
 		efficiency = 50
 	}
 }

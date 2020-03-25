@@ -168,13 +168,13 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 13
-		naval_speed = 18
+		sub_visibility = 12
+		naval_speed = 19
 		reliability = 0.75
 		
-		naval_range = 3500
+		naval_range = 4000
 		
-		max_strength = 35
+		max_strength = 40
 
 
 		

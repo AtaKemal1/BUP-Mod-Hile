@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	resources={
-		aluminium=5 # was: 8
+		aluminium=9 # was: 8
 	}
 
 	history={
@@ -17,13 +17,13 @@ state={
 		
 		owner = NOR
 		buildings = {
-			infrastructure = 6
+			infrastructure = 7
 			arms_factory = 2
-			industrial_complex = 3
+			industrial_complex = 4
 			dockyard = 1
 			air_base = 4
 			6115 = {
-				naval_base = 6
+				naval_base = 8
 				coastal_bunker = 3
 			}
 		}
