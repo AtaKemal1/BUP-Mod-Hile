@@ -4,11 +4,11 @@ state={
 	name="STATE_67"
 	manpower = 1402591
 	resources={
-		steel=39 # was: 60
-		aluminium=12 # was: 20
+		steel=19 # was: 60
+		aluminium=6 # was: 20
 	}
 	
-	state_category = large_city
+	state_category = city
 
 	history={
 		victory_points = {
@@ -20,8 +20,7 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 6
-                        industrial_complex = 1
-			arms_factory = 1
+                        industrial_complex = 4
 		}
 		add_core_of = GER
 	}

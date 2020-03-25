@@ -333,14 +333,14 @@ ideas = {
 			}
 
 		    modifier = {
-		    	supply_consumption_factor = -0.15
+		    	supply_consumption_factor = -0.1
 		    	production_speed_air_base_factor = 1
 			    planning_speed = 0.15
 			}
 			equipment_bonus = {
 			CAS_equipment = {
 					instant = yes
-					air_ground_attack = 0.2
+					air_ground_attack = 0.15
 			}
 		}
 		
@@ -1391,7 +1391,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.2
+				political_power_cost = 0.25
 			}
 		}
 
@@ -1422,7 +1422,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.3
+				political_power_cost = 0.4
 			}
 		}
 
@@ -1453,7 +1453,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.4
+				political_power_cost = 0.55
 			}
 		}
 
@@ -1484,7 +1484,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.5
+				political_power_cost = 0.7
 			}
 		}
 
@@ -1515,7 +1515,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.6
+				political_power_cost = 0.85
 			}
 		}
 
@@ -1546,7 +1546,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 0.75
+				political_power_cost = 1
 			}
 		}
 
@@ -1577,7 +1577,7 @@ ideas = {
 				production_speed_radar_station_factor = 0.25
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
-				political_power_cost = 1
+				political_power_cost = 1.15
 			}
 		}
 

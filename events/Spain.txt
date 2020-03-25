@@ -50,10 +50,10 @@ country_event = {
 			add_named_threat = { threat = 2 name = spain.1.t }
 			remove_ideas = SPR_the_black_years
 			SOV = { air_experience = 600 }
-			GER = { air_experience = 800 }
+			GER = { air_experience = 600 }
 			ITA = { air_experience = 400 }
 			SOV = { army_experience = 400 }
-			GER = { army_experience = 700 }
+			GER = { army_experience = 400 }
 			ITA = { army_experience = 300 }
 			SPR = { army_experience = 600 }
 			SPR = { air_experience = 200 }

@@ -156,7 +156,7 @@ air_wings = {
 		}
 		tac_bomber_equipment_1 = {		# Do 23
 			owner = "GER" 
-			amount = 200
+			amount = 100
 		}
 		name = "Kampfgeschwader 152"
 		# Kampfgeschwader 155	
